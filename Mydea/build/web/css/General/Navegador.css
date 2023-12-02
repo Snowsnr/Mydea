@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+:root {
+  --Inria_Sans: "Inria Sans", sans-serif;
+  --btn_rosa: rgba(244, 55, 112, 1);
+  --btn_rosa_hover: #971a40;
+  --hover_nar : #D95538;
+}
+nav {
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  -webkit-border-radius: 0rem 0rem 0.625rem 0.625rem;
+  -moz-border-radius: 0rem 0rem 0.625rem 0.625rem;
+  -ms-border-radius: 0rem 0rem 0.625rem 0.625rem;
+  -o-border-radius: 0rem 0rem 0.625rem 0.625rem;
+  box-shadow: 3px 5px 4px 0px rgba(0, 0, 0, 0.3);
+  height: 10%;
+  position: absolute;
+  background-color: white;
+  height: 10%;
+  z-index: 10;
+}
+.icon {
+  padding: 5px;
+  height: 100%;
+}
+.icon i::before {
+  font-size: 40px;
+}
+.logo {
+  height: 3rem;
+}
+.input_search {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: #6a6a6a;
+  font-family: var(--Inria_Sans);
+  font-weight: bold;
+  border-radius:0px;
+  -webkit-border-radius:0px;
+  -moz-border-radius:0px;
+  -ms-border-radius:0px;
+  -o-border-radius:0px;
+  outline: none;
+  padding: 5px;
+  border-top-left-radius: 5px;
+}
+.input_search::placeholder {
+  font-weight: 400;
+  background: linear-gradient(to right, black, transparent);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.input_search:focus {
+  outline: none;
+  background-color: white;
+  border-bottom: 2.3px solid #000000;
+  font-weight: bold;
+  color: black;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+.button_search {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 10%;
+  background-color: #c8a700;
+  padding: 0px;
+}
+.button_search:hover {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  background-color: #da5d03;
+}
+.button_search i {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.btn_negro {
+  font-family: var(--Inria_Sans);
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 3px 3px 1px black;
+}
+.btn_negro:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  border: 0.1px solid white;
+}
+.btn_rosa {
+  border: 2px solid var(--btn_rosa);
+  font-family: var(--Inria_Sans);
+  background: var(--btn_rosa);
+  font-weight: bold;
+  box-shadow: 3px 3px 1px var(--btn_rosa_hover);
+}
+.btn_rosa:hover {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: white;
+  background-color: var(--btn_rosa_hover);
+  border: 2px solid var(--btn_rosa_hover);
+}
+.large {
+  width: 100%;
+}
+.hamburger_menu {
+  background-color: #fb7356;
+}
+.txt_lg_hamburguer {
+  font-family: var(--Inria_Sans);
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+}
+.a_hamburguer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: var(--Inria_Sans);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.busq_hamburguer{
+    margin-bottom: 15px;
+}
+.a_hamburguer li div{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    border-bottom: 2px solid #6a6a6a;
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 0px 0px;
+    -o-border-radius: 5px 5px 0px 0px;
+}
+.a_hamburguer li div:hover{
+    transition: 0.3s;
+    background-color: var(--hover_nar);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    color: white;
+    border-bottom: 2px solid var(--hover_nar);
+}
+.hamburger_body::-webkit-scrollbar{
+    width: 7px;
+}
+.hamburger_body::-webkit-scrollbar-thumb{
+    background-color: #493327;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.Cuenta_des{
+  font-family: var(--Inria_Sans);
+}
+.Cuenta_des button{
+  background-color: white;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.Cuenta_des button:hover{
+  background: none;
+  background-color: black;
+}
+.Cuenta_des button:focus{
+  background-color: black;
+}
+.Cuenta_des button i{
+  font-size: 20px;
+}
+.btn_count{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 1px black;
+}
+.btn_des{
+  box-shadow: 3px 3px 1px black;
+}
+.Cuenta_des ul li:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: var(--hover_nar);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: white;
+}
+.Cuenta_des ul li:last-child:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: var(--btn_rosa);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: white;
+}
+.btnp{
+  padding: 0;
+}
+.book{
+  font-size: 2rem;
+}
+.img_perfil{
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background-color: rgb(244, 244, 244);
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.img_perfil img{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.tittle_c{
+  font-size: 1.5rem;
+  font-family: var(--Inria_Sans);
+  font-weight: bold;
+}
+.ih{
+  height: 100%;
+}
+.icons_h1{
+  height: 100%;
+  width: 100%;
+}
+
+.icons_h1 i{
+  font-size: 2.3rem;
+  color: white;
+}
+.icons_h1:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: #000;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.icons_h1 i:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: #000;
+}
+.icons_h{
+  width: 50%;
+  height: 30%;
+}
+.icons_h i{
+  font-size: 2.3rem;
+  color: white;
+}
+.icons_h:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: #000;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.icons_h i:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: #000;
+}
+.bh{
+  fill: white;
+}
+.bh:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  fill: #000;
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+}
+.btn i{
+  text-shadow:3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+.offcanvas-header .btn i{
+  font-size: 2.5rem;
+}
+.btn svg{
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
+  -webkit-filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
+}
+.offcanvas-header .btn svg{
+  font-size: 2.5rem;
+}
+.Inria{
+  font-family: var(--Inria_Sans);
+}
+.tt_con{
+    text-align: center;
+}
+.inpt_concorr{
+    width: 90px;
+    height: 90px;
+}
+.ccr{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 5vh;
+}
+.inpts_c{
+    gap: 2%;
+}
+.inpts_c input{
+    border-radius: 20px;
+    border: none;
+    background: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+.inpts_c input:focus{
+    transition: 0.3s;
+    background: white;
+}

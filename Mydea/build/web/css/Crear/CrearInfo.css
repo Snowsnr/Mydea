@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+:root{
+  --Inria:'Inria Sans', sans-serif;
+}
+.tittle_info_cn {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  height: max-content;
+}
+.txt_cni {
+  height: 100%;
+  display: flex;
+  gap: 5%;
+}
+.cni {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+}
+.beneficios {
+    background-color: #FB7356;
+}
+.txt_cni{
+    font-size: 0.8rem;
+}
+.beneficios svg, .beneficios path{
+    fill: white;
+    display: flex;
+}
+.Inria_t{
+  font-family: var(--Inria);
+  font-weight: 700;
+  font-size: 1.6rem;
+}

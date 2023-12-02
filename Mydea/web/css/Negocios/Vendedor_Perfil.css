@@ -1,0 +1,32 @@
+#rv_cont_usu, #coment_pro_ch{
+  background-image: linear-gradient(
+    165deg,
+    #803357 0,
+    #81345e 16.67%,
+    #742e5d 33.33%,
+    #641d54 50%,
+    #530a4c 66.67%,
+    #440046 83.33%,
+    #350043 100%
+  );
+}
+#coment_pro_ch{
+    color: white;
+}
+#hu_tt{
+    color: white;
+}
+.btn_mn button{
+    background-color: white;
+}
+.btn_mn button:hover{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    background-color: black;
+}
+#bar_img_ch{
+    background-color: rgba(255, 255, 255, 0.8);
+}

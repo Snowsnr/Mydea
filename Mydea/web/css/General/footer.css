@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 nov 2023, 18:58:50
+    Author     : altro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.footeri {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  flex-direction: column;
+}
+.contacts-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #953030;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.1%;
+  padding: 0.3%;
+  flex-direction: column;
+}
+.contacts-section1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  height: 3.5vh;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.contacts-footer section svg {
+  height: 20px;
+  cursor: pointer;
+}
+.contacts-footer section {
+  padding: 5px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: white;
+  height: 100%;
+}
+.contacts-footer section svg:hover{
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer-section {
+  width: 100%;
+  padding: 15px;
+  background-color: #250000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo-footer {
+  height: 140px;
+  width: 175px;
+}
+.line-footer {
+  height: 2px;
+  width: 33%;
+  background: white;
+}
+.line-footer2{
+  height: 1px;
+  width: 70%;
+  background: white;
+  margin-bottom: 15px;
+}
+.more-footer{
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.more-footer a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    border-right: 1px solid white;
+    width: 16.6%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.more-footer a:last-child{
+  border-right: 0px;
+}
+.ethev{
+  margin-bottom: 15px;
+  color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.7rem;
+}

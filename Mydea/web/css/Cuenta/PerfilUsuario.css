@@ -1,0 +1,171 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 nov 2023, 9:25:43
+    Author     : altro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.main-container {
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    gap: 3px;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+}
+
+.elementos-izquierda {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.textos {
+    height: auto; 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    font-family: 'Inria Sans';
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.p2{
+    font-family: 'Inria Sans';
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 1000;
+}
+.p3{
+    font-family: 'Inria Sans';
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.contactos {
+    height: auto; 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.p4{
+    font-family: 'Inria Sans';
+    font-weight: 1000;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.Iconos{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+.contactos .bi{
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+.bi-telephone:hover{
+    color: green;
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+}
+.bi-envelope-fill:hover{
+    color: rgb(230, 0, 0);
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+}
+.bi-facebook:hover{
+    color: rgb(15, 15, 222);
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+}
+.bi-instagram:hover{
+    color: rgb(255, 27, 225);
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+}
+.bi-twitter:hover{
+    color: rgb(55, 198, 255);
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+}
+.bi-globe2:hover{
+    color: rgb(1, 161, 107);
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+}
+
+
+.botones {
+    height: 10%; 
+    width: 90%;
+    margin-top: 3%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.elementos-derecha{
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.cont-img{
+    border-radius: 100%;
+    resize: both;
+    background-color: #ced4da;
+    display: flex;
+    width: 90%;
+    padding-bottom: 90%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}

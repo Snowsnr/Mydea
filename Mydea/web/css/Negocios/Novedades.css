@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 nov 2023, 2:45:33
+    Author     : altro
+*/
+
+#Productos_cnf {
+  display: flex;
+}
+#prof1_cnf {
+  gap: 15px;
+}
+#color {
+  background-image: radial-gradient(
+    circle at 94.48% 46.11%,
+    #ff7b89 0,
+    #ff6c85 16.67%,
+    #f25980 33.33%,
+    #e24178 50%,
+    #d12471 66.67%,
+    #c3006d 83.33%,
+    #b6006d 100%
+  );
+}
+#btn_AProd{
+    background-color: rgb(91, 29, 99);
+    border: 3px solid rgb(91, 29, 99);
+    box-shadow: 3px 3px 1px rgb(56, 12, 62);
+}
+#btn_AProd:hover{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border: 3px solid rgb(56, 12, 62);
+    background-color: rgb(56, 12, 62);
+}
